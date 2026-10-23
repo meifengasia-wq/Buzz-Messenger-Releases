@@ -2,39 +2,38 @@
 
 **Buzz! Messenger** là ứng dụng trò chuyện, kết bạn và giải trí cộng đồng trên Android.
 
-> **Trạng thái:** Đang chuẩn bị bản Android Beta tải công khai. Chưa có file APK Release được xác minh và phát hành tại đây. Xin **không** dùng APK Debug để phân phối.
+> **Trạng thái:** Ứng dụng đang chuẩn bị phát hành Beta công khai. **Bản Release Code 113 đã được xác minh chữ ký**, nhưng **chưa có APK được đăng lên GitHub Releases**. Không tải APK Debug để phân phối.
 
-## ✨ Tính năng thử nghiệm
+## ✨ Những gì đang có
 
-- Chat 1-1 và danh sách bạn bè
-- Buzz!!! — hiệu ứng tương tác vui trong trò chuyện
-- Room cộng đồng với playlist YouTube và khung chat chung
-- Story, bài viết cá nhân và Music
-- Quản lý tài khoản Buzz ID
-- Xem trước các tính năng **Premium** (chưa mở bán trong giai đoạn Beta thử tải)
+- Chat 1-1, Buddy List, Buzz ID và Buzz!!!
+- Cộng Đồng Buzz!: Room, Passcode, quản lý thành viên, playlist YouTube và khung chat chung
+- Story, bài viết, Music và trang Me
+- Giao diện tính năng Free / Premium; **Premium chưa mở bán trong Beta**
+- Admin Buzz có quyền Premium vô hạn từ hệ thống xác thực
 
 ## 📲 Tải ứng dụng Android
 
-**Chưa phát hành APK công khai.**
+**Chưa có liên kết tải công khai.**
 
-Khi bản Release đã ký và được kiểm thử, liên kết tải sẽ xuất hiện tại:
+Khi bản APK chính thức vượt qua kiểm tra trên thiết bị, file sẽ được đăng tại:
 
-**[GitHub Releases →](https://github.com/meifengasia-wq/Buzz-Messenger-Releases/releases)**
+**[GitHub Releases](https://github.com/meifengasia-wq/Buzz-Messenger-Releases/releases)**
 
-Phiên bản Beta mục tiêu: Android 8.0 trở lên. Các thiết bị và phiên bản cụ thể chỉ được xác nhận hỗ trợ sau khi thử nghiệm.
+Ứng viên Beta: **v4.4-beta10.9a — Code 113**, Android 8.0 trở lên.
 
-## 🧪 Mục đích Beta
+Xem [ghi chú chuẩn bị phát hành](RELEASE_NOTES_v4.4-beta10.9a.md), bao gồm mã SHA-256 để đối chiếu APK.
 
-Giai đoạn Beta tập trung kiểm tra đăng nhập, nhắn tin, Room, thông báo, độ ổn định và khả năng phục vụ khi số người dùng tăng. Tính năng và điều kiện sử dụng có thể thay đổi.
+## 🧪 Giai đoạn Open Beta
 
-## 🐛 Góp ý và báo lỗi
+Mục tiêu là kiểm tra đăng nhập, nhắn tin, Room, thông báo, độ ổn định và tải thực tế với nhiều người dùng. Các tính năng Premium chỉ giới thiệu/trạng thái khóa, chưa thương mại hóa.
 
-Vui lòng mở [Issues](https://github.com/meifengasia-wq/Buzz-Messenger-Releases/issues) để báo lỗi, kèm phiên bản Buzz, loại thiết bị, phiên bản Android và các bước tái hiện.
+## 🐛 Góp ý
 
-**Không đăng số điện thoại, email đăng nhập, mã OTP, token, nội dung Chat riêng tư hoặc thông tin người khác vào Issues công khai.**
+Báo lỗi qua [GitHub Issues](https://github.com/meifengasia-wq/Buzz-Messenger-Releases/issues). Vui lòng ghi phiên bản Buzz, thiết bị, phiên bản Android và cách tái hiện. **Không chia sẻ email, OTP, mật khẩu, token hay nội dung Chat cá nhân**.
 
-## 🔐 Lưu ý phát hành
+## 🔐 Bảo mật và tính xác thực
 
-Chỉ tải APK từ trang GitHub Releases chính thức của kho này hoặc liên kết Tải về dẫn từ trang Buzz chính thức khi đã kích hoạt. Trước khi đăng APK, nhóm phát triển sẽ kiểm tra chữ ký Release, chế độ debuggable, cấu hình backup/kết nối và cung cấp mã SHA-256 của file để người dùng đối chiếu.
+Chỉ tải file từ Release chính thức khi đã được công bố. Kiểm tra mã SHA-256 và tên gói. Không lưu trữ APK Debug hay keystore trên kho này.
 
-© Buzz! Messenger. Bản Beta đang phát triển.
+© Buzz! Messenger — Android Beta.
